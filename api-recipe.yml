@@ -15,4 +15,4 @@ Manifests:
     Lifecycle:
         Run: docker run "${restapi_ecr_url}"
     Artifacts:
-      - URI: "docker:"${restapi_ecr_url}"
+      - URI: "docker:${restapi_ecr_url}"
