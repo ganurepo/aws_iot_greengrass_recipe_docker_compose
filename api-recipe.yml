@@ -13,6 +13,6 @@ Manifests:
   - Platform:
       os: all
     Lifecycle:
-        Run: docker run "%core_device_restapi_ecr_url1%"
+        Run: docker run "%component_restapi_ecr_url1%"
     Artifacts:
-      - URI: "docker:%core_device_restapi_ecr_url1%"
+      - URI: "docker:%component_restapi_ecr_url1%"
