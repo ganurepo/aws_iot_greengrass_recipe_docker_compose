@@ -1,6 +1,6 @@
 ---
 RecipeFormatVersion: '2020-01-25'
-ComponentName: "${componentName}"
+ComponentName: $componentName
 ComponentVersion: "${componentversion}"
 ComponentDescription: "${componentdescription}"
 ComponentPublisher: 'Developed by Ganpat'
