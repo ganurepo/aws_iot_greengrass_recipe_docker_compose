@@ -1,8 +1,8 @@
 ---
 RecipeFormatVersion: '2020-01-25'
 ComponentName: '%componentName%'
-ComponentVersion: "${componentversion}"
-ComponentDescription: "${componentdescription}"
+ComponentVersion: "%componentversion%"
+ComponentDescription: "%componentdescription%"
 ComponentPublisher: 'Developed by Ganpat'
 ComponentDependencies:
   aws.greengrass.DockerApplicationManager:
@@ -13,6 +13,6 @@ Manifests:
   - Platform:
       os: all
     Lifecycle:
-        Run: docker run "${restapi_ecr_url}"
+        Run: docker run "%core_device_restapi_ecr_url1%"
     Artifacts:
-      - URI: "docker:${restapi_ecr_url}"
+      - URI: "docker:%core_device_restapi_ecr_url1%"
